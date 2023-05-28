@@ -4,8 +4,7 @@
   "description": "Данный проект - входное задание на позицию стажер frontend-разработчик в компанию Digital Design",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "npm run build && gh-pages -d dist -b master",
     "build": "webpack --mode production",
     "start": "webpack serve",
     "server": "json-server -w server/db.json -p 3001",

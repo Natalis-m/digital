@@ -48,6 +48,10 @@ onst getItems = async () => {
 
 ## Ccылка на GitHub Pages
 
+!!! Для корректного отображения страницы должен быть локально запущен сервер
+
+## npm run dev
+
 - [посмотреть проект](https://natalis-m.github.io/digital/)
 
 ## Автор
