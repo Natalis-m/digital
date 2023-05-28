@@ -1,0 +1,44 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/menu_li.css);
+@import url(../blocks/theme/theme.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/category/category.css);
+@import url(../blocks/title/title.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__img-wraping/card__img-wraping.css);
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__label/card__label.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__date/card__date.css);
+@import url(../blocks/card/__btn/card__btn.css);
+
+@import url(../blocks/pop-up/pop-up.css);
+@import url(../blocks/pop-up/__title/pop-up__title.css);
+@import url(../blocks/pop-up/__body/pop-up__body.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__count/form__count.css);
+@import url(../blocks/form/__count-btn/form__count-btn.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__option/form__option.css);
+@import url(../blocks/form/__textarea/form__textarea.css);
+@import url(../blocks/form/__btn/form__btn.css);
+
+@import url(../blocks/options/options.css);
+@import url(../blocks/options/__title/options__title.css);
+@import url(../blocks/options/__label/options__label.css);
+@import url(../blocks/options/__item/options__item.css);
+
+@import url(../blocks/error/error.css);
+@import url(../blocks/error/__note/err__note.css);
+@import url(../blocks/go-top/go-top.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/menu/mehu__footer.css);

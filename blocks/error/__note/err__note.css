@@ -1,0 +1,11 @@
+.err__note {
+  display: none;
+}
+
+.err__note_active {
+  display: inline;
+  font-weight: 600;
+  font-size: 24px;
+  color: rgb(255, 0, 0);
+  margin: 0 10px 0 0;
+}

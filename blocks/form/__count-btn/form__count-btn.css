@@ -1,0 +1,9 @@
+.form__count-btn {
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(221, 221, 221);
+  color: blue;
+  font-weight: 800;
+}

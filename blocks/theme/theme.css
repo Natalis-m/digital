@@ -1,0 +1,41 @@
+.theme {
+  line-height: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(37, 34, 63);
+  color: white;
+}
+
+.theme__icon {
+  margin: 5px;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px rgb(34, 0, 255);
+}
+
+.theme__dark {
+  background-color: #202b3f !important;
+  color: white;
+}
+
+.theme__dark_options {
+  color: rgb(205, 200, 200) !important;
+}
+
+.theme__dark_options:hover {
+  color: white !important;
+}
+
+@media (max-width: 895px) {
+  .theme {
+    align-self: flex-end;
+    margin: 20px 20px 0 0;
+  }
+}
+
+@media (max-width: 680px) {
+  .theme {
+    align-self: center;
+    margin: 0;
+  }
+}

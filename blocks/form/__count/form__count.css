@@ -1,0 +1,8 @@
+.form__count {
+  border: 1px solid blue;
+  border-radius: 5px;
+  max-width: 80px;
+  text-align: center;
+  cursor: default;
+  margin: 0 0 10px 0;
+}

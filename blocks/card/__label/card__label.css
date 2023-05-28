@@ -1,0 +1,9 @@
+.card__label {
+  display: flex;
+  flex-direction: column;
+  max-width: 246px;
+  height: 100px;
+  padding: 15px 10px;
+  margin: 0;
+  gap: 10px;
+}

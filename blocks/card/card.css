@@ -1,0 +1,19 @@
+.card {
+  border-radius: 10px;
+  box-shadow: 0.2em 0 1em rgba(20, 20, 255, 0.8);
+  overflow: hidden;
+}
+
+@media (max-width: 715px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 655px) {
+  .card {
+    flex-direction: column;
+  }
+}

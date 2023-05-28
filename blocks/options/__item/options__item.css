@@ -1,0 +1,9 @@
+.options__item {
+  display: flex;
+  align-items: center;
+}
+
+.options__item:hover .options__label {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}

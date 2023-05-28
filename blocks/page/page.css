@@ -1,0 +1,6 @@
+.page {
+  background: linear-gradient(to right, rgb(45, 45, 255), rgb(3, 9, 78));
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}

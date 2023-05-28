@@ -1,0 +1,11 @@
+.pop-up__body {
+  max-height: 500px;
+  max-width: 550px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(221, 221, 221);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,8 @@
+.card__date {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  padding-bottom: 10px;
+}

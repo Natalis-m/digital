@@ -1,0 +1,15 @@
+.form__btn {
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 28px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, rgb(45, 45, 255), rgb(12, 23, 152));
+  color: white;
+}
+
+.form__btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  box-shadow: 0 0 15px rgba(0, 0, 255, 0.343);
+}

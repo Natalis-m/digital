@@ -1,0 +1,8 @@
+.form__input {
+  border: 1px solid blue;
+}
+
+.form__input:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1em rgba(0, 4, 225, 0.491);
+}

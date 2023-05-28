@@ -1,0 +1,37 @@
+.options__label {
+  font-size: 18px;
+  margin: 0 0 0 13px;
+  gap: 10px;
+  position: relative;
+  color: rgb(112, 112, 112);
+}
+
+.options__label::before {
+  content: '';
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: -31px;
+  top: -2px;
+}
+
+.options__label:hover::before {
+  cursor: pointer;
+}
+
+.options__label::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: -27px;
+  display: block;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 255, 0.663);
+  transition: all 0.3s ease 0s;
+  transform: scale(0);
+}

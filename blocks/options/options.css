@@ -1,0 +1,11 @@
+.options {
+  max-width: 200px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 0 0 10px 0;
+}

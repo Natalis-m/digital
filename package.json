@@ -1,0 +1,36 @@
+{
+  "name": "digital-test",
+  "version": "1.0.0",
+  "description": "Данный проект - входное задание на позицию стажер frontend-разработчик в компанию Digital Design",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve",
+    "server": "json-server -w server/db.json -p 3001",
+    "dev": "concurrently \"npm run server\" \"npm run start\""
+  },
+  "keywords": [],
+  "author": "Natalya Shumkova",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "concurrently": "^8.0.1",
+    "css-loader": "^6.7.4",
+    "cssnano": "^6.0.1",
+    "html-webpack-plugin": "^5.5.1",
+    "json-server": "^0.17.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss-loader": "^7.3.0",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "core-js": "^3.30.2"
+  }
+}

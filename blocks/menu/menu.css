@@ -1,0 +1,16 @@
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+@media (max-width: 680px) {
+  .menu {
+    flex-direction: column;
+    gap: 0;
+  }
+}

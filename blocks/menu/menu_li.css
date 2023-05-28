@@ -1,0 +1,16 @@
+.menu_li {
+  font-size: 18px;
+  line-height: 30px;
+  color: #dcdcdc;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu_li:hover {
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+.menu_li_active {
+  color: #fff;
+  border-bottom: 1px solid white;
+}

@@ -1,0 +1,15 @@
+.logo {
+  height: 60px;
+  box-shadow: 0.5em 0 1.5em rgb(20, 20, 255);
+  border-radius: 20px;
+  object-fit: contain;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.logo:hover {
+  border-radius: 25px;
+  opacity: 0.9;
+  box-shadow: 0.5em 0 1.5em rgb(0, 0, 255);
+  transition: all 0.5s ease-in-out;
+}

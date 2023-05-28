@@ -1,0 +1,13 @@
+.form__option {
+  opacity: 0;
+  line-height: 15px;
+  z-index: 11;
+}
+
+.form__option:checked + .options__label::after {
+  transform: scale(1);
+}
+
+.form__option:hover {
+  cursor: pointer;
+}
